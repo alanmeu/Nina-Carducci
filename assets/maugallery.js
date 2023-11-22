@@ -12,7 +12,6 @@
         );
       }
       $.fn.mauGallery.listeners(options);
-
       $(this)
         .children(".gallery-item")
         .each(function(index) {
@@ -28,7 +27,6 @@
             tagsCollection.push(theTag);
           }
         });
-
       if (options.showTags) {
         $.fn.mauGallery.methods.showItemTags(
           $(this),
@@ -36,7 +34,6 @@
           tagsCollection
         );
       }
-
       $(this).fadeIn(500);
     });
   };
@@ -147,7 +144,6 @@
       }
       let index = 0,
         next = null;
-
       $(imagesCollection).each(function(i) {
         if ($(activeImage).attr("src") === $(this).attr("src")) {
           index = i - 1;
