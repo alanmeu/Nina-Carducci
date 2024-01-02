@@ -22,6 +22,7 @@
           "openingHours": "Mo-Fr 10:00-19:00"
         }
     </script>
+	<meta charset="UTF-8">
 	<meta name="robots" content="index, follow">
 	<meta property="og:locale" content="fr_FR" />
     <meta property="og:language" content="fr" />
@@ -31,14 +32,14 @@
     <meta property="og:url" content="https://alanmeu.github.io/Nina-Carducci/">
     <meta property="og:type" content="website">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title itemprop="name" >Nina Carducci | Portfolio de Photographie Professionnelle</title>
+    <title> Nina Carducci | Portfolio de Photographie Professionnelle</title>
     <meta name="description" content="Découvrez le portfolio captivant de Nina Carducci, spécialisé dans la photographie [émotion, portrait, mariage, concerts, entreprise].">
     <link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet">
-    <meta charset="UTF-8">
+    
 	<meta name="google-site-verification" content="Yo_AHvQI1_vo_wZ2_TDUwmx8dxzYdQyvVIiWG_QS01U" />
 </head>
 <body>
@@ -105,7 +106,7 @@
 			<img itemprop="image"  width="375" loading="lazy" height="375" data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/hannah-busing-RvF2R_qMpRk-unsplash.webp" alt="photo de deux main qui se touche du bout des doights"/>
 			<img  itemprop="image" width="375" loading="lazy" height="375" data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash.webp" alt="portrait d'un jeune homme"/>
 			<img  itemprop="image" width="375" loading="lazy" height="375" data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash.webp" alt="photo de mariage"/>
-			<img itemprop="image"  width="375" loading="lazy" height="375" data-gallery-tag="Portrait" class="gallery-item" src="assets/images/gallery/portraits/nino-van-prattenburg - 443cl1uR_8-unsplash.webp" alt="portrait d'une jeune femme"/>
+			<img  itemprop="image"  width="375" loading="lazy" height="375" data-gallery-tag="Portrait" class="gallery-item" src="assets/images/gallery/portraits/nino-van-prattenburg.webp" alt="portrait d'une jeune femme"/>
 			<img  itemprop="image" width="375" loading="lazy" height="375" data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/austin-neill-hgO1wFPXl3I-unsplash.webp" alt="photo d'un homme sur scene"/>
 			<img itemprop="image"  width="375" loading="lazy" height="375" data-gallery-tag="Entreprises" class="gallery-item" src="assets/images/gallery/entreprise/mateus-campos-felipe-Fsgzm8N0hIY-unsplash.webp" alt="photo d'une jeune femme qui rit"/>
 		</div>
@@ -170,18 +171,18 @@
 		<div class="form-container">
 			<h2>Contactez-moi</h2>
 			<p>N’hésitez pas à me contacter pour toute question ou demande de devis. Je vous répondrai rapidement, en moins de 24 heures.</p>
-			<form action="" method="post">
+			<form action="*" method="post">
 				<label for="nom">Nom</label>
 				<input type="text" name="nom" id="nom" required>
 				<label for="email">Email</label>
 				<input type="email" name="email" id="email" required>
 				<label for="message">Message</label>
 				<textarea name="message" id="message" cols="30" rows="10" required></textarea>
-				<input type="submit" value="Envoyer">
+				<input type="submit" aria-label="Envoyer" value="Envoyer">
 			</form>
 		</div>
 		<div class="picture right">
-			<img width="390" height="390" loading="lazy"  src="./assets/images/camera.webp" alt="Appareil photo">
+			<img width="390" height="390" loading="lazy" class="img-photo"  src="./assets/images/camera.webp" alt="Appareil photo">
 		</div>
 	</div>
 </section> 
